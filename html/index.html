@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <title>ATC Console</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link href="style.css" rel="stylesheet" />
+   </head>
+   <body>
+      <div id="app" class="ui">
+         <header>
+            <img class="logo" src="https://static.wikia.nocookie.net/rde/images/b/b8/LSIA-logo-GTAV.png/revision/latest?cb=20160124223133" alt="LSIA Logo">
+            <div class="right">
+               <button id="btnCine">Cinematic</button>
+               <button id="btnHide">Hide UI</button>
+               <button id="btnClose">Close</button>
+            </div>
+         </header>
+         <section class="controls">
+            <button id="btnArr">Spawn Arrival</button>
+            <button id="btnDep">Spawn Departure</button>
+         </section>
+         <section class="planes">
+            <h2>Traffic</h2>
+            <div id="list"></div>
+         </section>
+         <footer>
+            <small id="status">Cinematic: ON</small>
+         </footer>
+      </div>
+      <script src="app.js"></script>
+   </body>
+</html>
